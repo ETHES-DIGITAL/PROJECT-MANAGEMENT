@@ -22,11 +22,11 @@ class CustomVerifyEmail extends VerifyEmail
         return (new MailMessage)
             ->subject('Verifikasi Alamat Email Anda')
             ->greeting('Halo ' . $notifiable->name . '!')
-            ->line('Terima kasih telah mendaftar di Kraflo.')
+            ->line('Terima kasih telah mendaftar di Rencanakan.')
             ->line('Untuk menyelesaikan proses pendaftaran dan mulai menggunakan layanan kami, silakan verifikasi email Anda dengan mengklik tombol di bawah ini:')
             ->action('Verifikasi Email', $verificationUrl)
-            ->line('Jika Anda tidak mendaftar di Kraflo, abaikan email ini.')
-            ->salutation('Terima kasih, Tim Kraflo');
+            ->line('Jika Anda tidak mendaftar di Rencanakan, abaikan email ini.')
+            ->salutation('Terima kasih, Tim Rencanakan');
     }
 
     /**
