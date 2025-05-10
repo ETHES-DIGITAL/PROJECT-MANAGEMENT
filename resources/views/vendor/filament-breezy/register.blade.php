@@ -63,6 +63,6 @@
     @endif
 
     <div class="text-center mt-4">
-        <span class="text-sm text-gray-500">Kraflo by Ethes Digital</span>
+        <span class="text-sm text-gray-500">Rencanakan by Ethes Digital</span>
     </div>
 </x-filament-breezy::auth-card>
